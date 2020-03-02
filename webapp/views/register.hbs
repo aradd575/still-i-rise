@@ -1,0 +1,52 @@
+<h1>Registration</h1>
+
+<form method="post" action="/registrations">
+    <table>
+        <tr>
+            <td>First name:</td>
+            <td><input type="text" name="firstName" value="{{firstName}}"></td>
+        </tr>
+        <tr>
+            <td>Last name:</td>
+            <td><input type="text" name="lastName" value="{{lastName}}"></td>
+        </tr>
+        <tr>
+            <td>Grade:</td>
+            <td>
+                <select name="grade">
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Email:</td>
+            <td><input type="text" name="email" value="{{email}}"></td>
+        </tr>
+        <tr>
+            <td>Shirt Size:</td>
+            <td>
+                <select name="shirtSize">
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Hacker Rank Username:</td>
+            <td><input type="text" name="hrUsername" value="{{hrUsername}}"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Continue"></td>
+        </tr>
+    </table>
+    <p>{{errmsg}}</p>
+</form>
+<form method="get" action="/registrations">
+<td><input type="submit" value="Get participants"></td>
+</form>
