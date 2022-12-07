@@ -11,7 +11,7 @@
   "license": "ISC",
   "repository": {},
   "dependencies": {
-    "express": "^4.1",
+    "express": "^4.18",
     "express-handlebars": "^3.1.0",
     "handlebars": "^4.7.3",
     "mysql": "^2.18"
